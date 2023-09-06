@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="estilo.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <form id="registroForm" action="https://jsonplaceholder.typicode.com/users." method="post">
+        <p>
+        <label for="nombre">Nombre: </label> 
+        <input type="text" name="nombre" id="nombre">
+        <br/> <br/>
+        <label for="apellido">Apellido: </label>
+        <input type="text" name="apellido" id="apellido">
+        <br/> <br/>
+        <label for="nacimiento">Fecha de nacimiento: </label>
+        <input type="date" name="nacimiento" id="nacimiento">
+        <br/> <br/>
+        <input type="submit" value="Enviar">
+    </form>
+    <script src="script.js"></script>
+    
+</body>
+</html>
