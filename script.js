@@ -13,7 +13,7 @@ document.getElementById("registroForm").addEventListener("submit", function (e) 
         fechaNacimiento: fechaNacimiento
     };
 
-    // Enviar el objeto JSON al endpoint usando fetch
+    // Enviar el objeto JSON usando fetch
     fetch('https://jsonplaceholder.typicode.com/users', {
         method: 'POST',
         headers: {
